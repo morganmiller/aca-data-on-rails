@@ -1,0 +1,12 @@
+#DREAMS
+
+##Get database from sqlite to pg
+##Get app from Sinatra to Rails
+##Create layout
+##Stick with conventions
+
+* Should data be scraped into a separate API?
+
+#First want to scrape the data into a tmp folder
+
+
