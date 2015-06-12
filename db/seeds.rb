@@ -11,6 +11,8 @@ ActiveRecord::Schema.define do
     t.string :state
     t.integer :child_premium
     t.string :plan_type
+    t.integer :premium_adult_21_years
+    t.string :indv_medical_deductible #make different data type - needs to be int
   end
 end
 
@@ -22,12 +24,15 @@ column_map = data["meta"]["view"]["columns"]
                .reject { |c| c["id"] == -1 }
                .map { |c| [c["name"], c["id"].to_s] }
                .to_h
+binding.pry
 
 data["data"].each do |column|
   attributes = {
-    state:         column[column_map["State"]],
-    child_premium: column[column_map["Premium Child"]],
-    plan_type:     column[column_map["Plan Type"]],
+    state:                    column[column_map["State"]],
+    child_premium:            column[column_map["Premium Child"]],
+    plan_type:                column[column_map["Plan Type"]],
+    premium_adult_21_years:   column[column_map["Premium Adult Individual Age 21"]],
+    indv_medical_deductible:  column[column_map["Medical Deductible - individual - standard"]]
   }
   Plan.find_by(attributes) || Plan.create!(attributes)
 end
