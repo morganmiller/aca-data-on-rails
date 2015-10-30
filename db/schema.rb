@@ -13,4 +13,13 @@
 
 ActiveRecord::Schema.define(version: 0) do
 
+  create_table "plans", force: :cascade do |t|
+    t.string  "state"
+    t.integer "child_premium"
+    t.string  "plan_type"
+    t.integer "premium_adult_21_years"
+    t.integer "premium_adult_27_years"
+    t.integer "indv_medical_deductible"
+  end
+
 end

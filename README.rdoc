@@ -5,9 +5,8 @@
 ##Create layout
 ##Stick with conventions
 
-* Should data be scraped into a separate API?
-
 #First want to scrape the data into a tmp folder
+#Then seed it all into database on first run
 
 
 ###wtf is the purpose of this?
@@ -18,6 +17,11 @@
                                     > Give premium, deductible, copays for visits and drug costs + active prescriptions and number of doctor visits for previous year
                                     > Return monthly and annual expense across different plans
 
+
+#So basically just want bare minimum chart.js set up, and as I go maybe figure out better ways
+to structure my database & import the rest of the data
+Which data to keep? Which to toss?
+How to factor in 
 
 
 Here is all of the plan data to add, at some point:                     Here's plan data I won't need:
@@ -151,3 +155,5 @@ Here is all of the plan data to add, at some point:                     Here's p
                #     "Non-preferred Brand Drugs - 94 percent"=>"162968585",
                #     "Specialty Drugs - 94 percent"=>"162968586"}
 
+
+#^ percentages are cost-sharing proportions, adjusted actuarial value for silver plans
