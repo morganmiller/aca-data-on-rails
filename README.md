@@ -9,7 +9,7 @@
 #Then seed it all into database on first run
 
 
-###wtf is the purpose of this?
+  
   #Things that would be cool to compare/quantify/calculate:
       #Deductible + monthly premium costs, disparities in annual expenses with the cost of medical necessities held constant
                                            > so like, annual drug costs, average doctors visits, etc from previous year factored in
@@ -21,7 +21,7 @@
 #So basically just want bare minimum chart.js set up, and as I go maybe figure out better ways
 to structure my database & import the rest of the data
 Which data to keep? Which to toss?
-How to factor in 
+How to factor in
 
 
 Here is all of the plan data to add, at some point:                     Here's plan data I won't need:
