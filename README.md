@@ -1,28 +1,21 @@
 #DREAMS
 
-##Get database from sqlite to pg
-##Get app from Sinatra to Rails
-##Create layout
-##Stick with conventions
+###Get database from sqlite to pg
+###Get app from Sinatra to Rails
+###Create layout
 
-#First want to scrape the data into a tmp folder
-#Then seed it all into database on first run
+-First want to scrape the data into a tmp folder
+-Then seed it all into database on first run
 
 
-  
-  #Things that would be cool to compare/quantify/calculate:
-      #Deductible + monthly premium costs, disparities in annual expenses with the cost of medical necessities held constant
-                                           > so like, annual drug costs, average doctors visits, etc from previous year factored in
-                          ### .... But do I even need this data to do that, or could I make a simple calculator like:
-                                    > Give premium, deductible, copays for visits and drug costs + active prescriptions and number of doctor visits for previous year
-                                    > Return monthly and annual expense across different plans
+
+##Things that would be cool to compare/quantify/calculate
+*Compare premiums and benefits across age groups, states, etc.
+*Deductible + monthly premium costs, disparities in annual expenses with the cost of medical necessities held constant
+                                         > so like, annual drug costs, average doctors visits, etc from previous year factored in
 
 
 #So basically just want bare minimum chart.js set up, and as I go maybe figure out better ways
-to structure my database & import the rest of the data
-Which data to keep? Which to toss?
-How to factor in
-
 
 Here is all of the plan data to add, at some point:                     Here's plan data I won't need:
 
