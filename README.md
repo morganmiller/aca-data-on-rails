@@ -4,14 +4,14 @@
 ###Get app from Sinatra to Rails
 ###Create layout
 
--First want to scrape the data into a tmp folder
--Then seed it all into database on first run
+- First want to scrape the data into a tmp folder
+- Then seed it all into database on first run
 
 
 
 ##Things that would be cool to compare/quantify/calculate
-*Compare premiums and benefits across age groups, states, etc.
-*Deductible + monthly premium costs, disparities in annual expenses with the cost of medical necessities held constant
+* Compare premiums and benefits across age groups, states, etc.
+* Deductible + monthly premium costs, disparities in annual expenses with the cost of medical necessities held constant
                                          > so like, annual drug costs, average doctors visits, etc from previous year factored in
 
 
